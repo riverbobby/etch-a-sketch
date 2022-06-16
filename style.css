@@ -1,0 +1,7 @@
+#container-grid {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    width: 95vw;
+    height: 100vw;
+}
