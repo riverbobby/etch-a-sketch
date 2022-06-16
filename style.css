@@ -1,7 +1,16 @@
+* {
+    margin: 0;
+}
+
 #container-grid {
-    background-color: blue;
+    background-color: black;
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    width: 95vw;
-    height: 100vw;
+    width: 100vw;
+    max-width: 100vh;
+    height: 100vh;
+    max-height: 100vw;
+}
+
+.item {
+    background-color: white;
 }
