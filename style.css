@@ -2,15 +2,50 @@
     margin: 0;
 }
 
+#bod {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    padding: 0.5em;
+    text-shadow: -1px 1px 0 white, 
+                    1px 1px 0 white,
+                    1px -1px 0 white,
+                    -1px -1px 0 white;
+}
+
 #container-grid {
     background-color: black;
     display: grid;
-    width: 100vw;
-    max-width: 100vh;
-    height: 100vh;
-    max-height: 100vw;
+    width: 80vw;
+    max-width: 80vh;
+    height: 80vh;
+    max-height: 80vw;
+    border: 0.5rem solid black;
+    border-radius: 0.5rem;
 }
 
 .item {
     background-color: white;
+}
+
+.container-slider {
+    text-align: center;
+    width: 80vw;
+    max-width: 80vh;
+}
+
+#slider {
+    width: 70vw;
+    max-width: 70vh;
+    padding: 0.5em 0;
+}
+
+.container-slider-values {
+    display: flex;
+    justify-content: space-between;
 }

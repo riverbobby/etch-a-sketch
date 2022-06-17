@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Etch-A-Sketch</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
 </head>
 <body id="bod">
+    <h1 id="title">Etch-A-Sketch</h1>
     <div id="container-grid">
-
+        <!-- grid of class = .items goes here -->
+    </div>
+    <div class="container-slider">
+        <input type="range" min="16" max="100" step="1" value="16" id="slider">
+        <div class="container-slider-values">
+            <h4 class="text">Min: 16</h4>
+            <h4 class="text" id="range-text"></h4>
+            <h4 class="text">Max: 100</h4>
+        </div>
     </div>
 </body>
 </html>
