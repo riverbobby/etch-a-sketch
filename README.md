@@ -4,4 +4,4 @@
 - Uses HTML, CSS, and vanilla JavaScript
 - (Does not work on mobile because it relys on mouseover)
 
-- try me out by clicking [here](https://riverbobby.github.io/etch-a-sketch/)
+- try me out by clicking https://riverbobby.github.io/etch-a-sketch/
